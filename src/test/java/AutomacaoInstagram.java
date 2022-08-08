@@ -10,7 +10,7 @@ public class AutomacaoInstagram {
 
     @Test
     public void pesquisar() throws InterruptedException {
-        System.setProperty("endereco ou path de onde esta salvo no computador o arquivo webdrive");
+        System.setProperty("webdriver.chrome.driver", "endereco ou path de onde esta salvo no computador o arquivo webdrive");
         WebDriver driver = new ChromeDriver();
         //faz o sistema esperar 10 segundos para achar os elementos
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

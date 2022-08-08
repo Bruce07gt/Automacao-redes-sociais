@@ -11,7 +11,7 @@ public class AutomacaoYoutube {
 
     @Test
     public void pesquisar() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\bruci\\Documents\\Repositorio Exercicios\\Automac\\src\\drive\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "endereco ou path de onde esta salvo no computador o arquivo webdrive");
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
